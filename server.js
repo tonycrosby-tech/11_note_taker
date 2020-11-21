@@ -22,3 +22,14 @@ app.get("/notes", function(req, res) {
     res.sendFile(path.join(_dirname, "./public/notes.html"));
 });
 
+// displays all notes
+app.get("/api/notes", function(req, res) {
+    return res.json(db);
+});
+
+
+
+//server listening
+app.listen(PORT, function() {
+    console.log("API listening on PORT" + PORT);
+});
