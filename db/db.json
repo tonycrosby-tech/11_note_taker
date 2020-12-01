@@ -1,1 +1,5 @@
-[{"title":"Do dishes","text":"forks, cups, spoons","id":"0"},{"title":"Make dinner","text":"pizzzaa!","id":1},{"title":"Organize day","text":"time: 9am to do: mow lawn","id":2}]
+[
+  { "title": "Do dishes", "text": "forks, cups, spoons", "id": "0" },
+  { "title": "Make dinner", "text": "pizzzaa!", "id": 1 },
+  { "title": "Organize day", "text": "time: 9am to do: mow lawn", "id": 2 }
+]
